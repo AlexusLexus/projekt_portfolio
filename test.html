@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #272727; /* 75% серый фон */
+        }
+
+        .gradient-header {
+            position: absolute;
+            top: 0; /* расположение сверху страницы */
+            left: 50%;
+            transform: translate(-50%, 0);
+            background: linear-gradient(to bottom, white, #00000000); /* белый до серого */
+            font-size: 128px; /* больший размер текста */
+            font-weight: bold;
+            font-style: italic; /* курсив */
+            color: transparent; /* текст делаем прозрачным */
+            -webkit-background-clip: text; /* для поддержки веб-кит браузерами */
+            padding: 40px; /* увеличьте значение padding для большего сдвига */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="gradient-header">Ваш заголовок</div>
+</body>
+</html>

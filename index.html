@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="utf=8"/>
+        <title>Портфолио</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="cdimages/icon_main.png" type="image/x-icon" />
+    </head>
+    <body>
+        <script>
+            // JavaScript для установки случайного цвета фона контейнера
+            document.addEventListener("DOMContentLoaded", function() {
+                var container = document.querySelector(".nav-container");
+                var randomColor = getRandomColor();
+                container.style.backgroundColor = randomColor;
+    
+                function getRandomColor() {
+                    var letters = "0123456789ABCDEF";
+                    var color = "#";
+                    for (var i = 0; i < 6; i++) {
+                        color += letters[Math.floor(Math.random() * 16)];
+                    }
+                    return color;
+                }
+            });
+        </script>
+
+        <section class="nav-container">
+            <a href="index.html" class="nav-btn">На главную</a>
+            <a href="about.html" class="nav-btn">Обо мне</a>
+            <a href="gallery.html" class="nav-btn">Галерея</a>
+            <a href="funtime.html" class="nav-btn">Сюрпиз</a>
+            <a href="test.html" class="nav-btn">ТЕСТ</a>
+        </section>
+
+        <b class="ta">Портфолио Алексея Сырчина</b>
+    </body>
+</html>
