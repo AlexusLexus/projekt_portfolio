@@ -1,69 +1,39 @@
 body
 {
-    background-color: #272727;
-    margin: 0;
-    font-family: sans-serif;
-    color: #fff;
-    padding: 2em;
+  background-color: #272727;
 }
 
-.timeline
+h2
 {
-    margin: 5em auto;
-    max-width: 34.15em;
+  text-align: center;
+  font-size: 28px;
 }
 
-.checkpoint
+nav
 {
-    max-width: 34em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+  text-align: center;
+  font-size: 26px;
 }
 
-.checkpoint section
+.divider
 {
-    border: 2px solid #888;
-    border-radius: 1em;
-    padding: 1em;
+  position: relative;
+	margin-top: 90px;
+	height: 1px;
 }
 
-.checkpoint p
+.div-transparent:before
 {
-    line-height: 27px;
-    color: #ccc;
-}
-
-.checkpoint:nth-child(odd)
-{
-    border-left: 3px solid #888;
-    padding-left: 3em;
-}
-
-.checkpoint:nth-child(even)
-{
-    border-right: 3px solid #888;
-    padding-right: 3em;
-    transform: translateX(-15em);
-}
-
-.checkpoint:nth-child(odd)::before,
-.checkpoint:nth-child(even)::before
-{
-    content: '';
-    background: #888;
-    width: 3em;
-    height: 3px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.checkpoint:nth-child(odd)::before
-{
-    left: 0;
-}
-
-.checkpoint:nth-child(even)::before
-{
-    right: 0;
+  /* margin-left: 25%;
+  margin-right: 25%;
+  content: "";
+  background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent); */
+  content: "";
+	position: center;
+	top: 0;
+	left: 5;
+  right: 5;
+	width: 50%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(153, 156, 163), transparent);
 }
