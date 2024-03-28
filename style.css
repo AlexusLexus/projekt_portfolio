@@ -9,31 +9,10 @@ h2
   font-size: 28px;
 }
 
-nav
+.index_p
 {
+  color: white;
   text-align: center;
-  font-size: 26px;
-}
-
-.divider
-{
-  position: relative;
-	margin-top: 90px;
-	height: 1px;
-}
-
-.div-transparent:before
-{
-  /* margin-left: 25%;
-  margin-right: 25%;
-  content: "";
-  background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent); */
-  content: "";
-	position: center;
-	top: 0;
-	left: 5;
-  right: 5;
-	width: 50%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgb(153, 156, 163), transparent);
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
 }
