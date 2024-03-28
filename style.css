@@ -1,36 +1,18 @@
-:root 
+body
 {
-    --bg-color: white;
+  background-color: #272727;
 }
 
-.nav-btn
+h2
 {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    text-decoration: none;
-    color: red;
-    border-radius: 5px;
-    font-size: 20px;
-    transition: color 0.3s ease-in-out;
-    text-shadow: 2;
+  text-align: center;
+  font-size: 28px;
 }
 
-.nav-btn:hover
+.index_p
 {
-    color:black;
-}
-
-.nav-container
-{
-    text-align: center;
-    margin-top: 20px;
-    background-color: khaki;
-    border: none;
-}
-
-.ta
-{
-    text-align: center;
-    font-size: 22px;
+  color: white;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
 }

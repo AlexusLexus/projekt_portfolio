@@ -1,37 +1,22 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf=8"/>
+        <meta charset="utf-8">
         <title>Портфолио</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="shortcut icon" href="cdimages/icon_main.png" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="cdimages/icon_main.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <script>
-            // JavaScript для установки случайного цвета фона контейнера
-            document.addEventListener("DOMContentLoaded", function() {
-                var container = document.querySelector(".nav-container");
-                var randomColor = getRandomColor();
-                container.style.backgroundColor = randomColor;
-    
-                function getRandomColor() {
-                    var letters = "0123456789ABCDEF";
-                    var color = "#";
-                    for (var i = 0; i < 6; i++) {
-                        color += letters[Math.floor(Math.random() * 16)];
-                    }
-                    return color;
-                }
-            });
-        </script>
-
-        <section class="nav-container">
-            <a href="index.html" class="nav-btn">На главную</a>
-            <a href="about.html" class="nav-btn">Обо мне</a>
-            <a href="gallery.html" class="nav-btn">Галерея</a>
-            <a href="funtime.html" class="nav-btn">Сюрпиз</a>
-            <a href="test.html" class="nav-btn">ТЕСТ</a>
-        </section>
-
-        <b class="ta">Портфолио Алексея Сырчина</b>
+        <h2 class="title">Сырчин Алексей Дмитриевич, 22</h2>
+        
+        <p class="index_p">Закончил Вятский Технический Лицей в 2020 году</p>
+        <p class="index_p">Владею языками Pascal, C++, Python</p>
+        <p class="index_p">Работаю в Unrel Engine 4, Blender, Visual Studio, Word, Excel</p>
+        <p class="index_p">Мои качества: упорный и трудолюбивый, стремлюсь к получению новых навков, умею работать в коллективе</p>
+        <p class="index_p">Так же имею II юнешеский разряд по волейболу и III юнешеский разряд по лёгкой атлетике</p>
     </body>
 </html>
