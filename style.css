@@ -9,10 +9,66 @@ h2
   font-size: 28px;
 }
 
+.index_h
+{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
 .index_p
 {
   color: white;
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-size: 28px;
+}
+
+.index_h_fancy
+{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  background: -webkit-linear-gradient(#00c95a, #124724);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul li
+{
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+}
+
+@media not screen and (min-width:1024px)
+{
+  [class*="index_h"]
+  {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 42px;
+    color: white;
+  }
+
+  [class*="index_p"]
+  {
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+  }
+
+  [class*="index_h_fancy"]
+  {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 42px;
+    background: -webkit-linear-gradient(#00c95a, #124724);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
