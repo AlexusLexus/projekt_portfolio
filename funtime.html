@@ -1,40 +1,41 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf=8"/>
-        <link rel="shortcut icon" type="image/x-icon" href="cdimages/icon_funtime.png">
-        <title>Портфолио Алексея Сырчина</title>
-        <style>
-            .nav-btn
-            {
-                display: inline-block;
-                padding: 10px 20px;
-                margin: 5px;
-                text-decoration: none;
-                color: gold;
-                border-radius: 5px;
-                font-size: 20px;
-                transition: color 0.3s ease-in-out;
-                text-shadow: 2;
-            }
+        <meta charset="utf-8">
+        <title>Обратная связь</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="cdimages/icon_main.png">
 
-            .nav-btn:hover
-            {
-                color:black;
-            }
-
-            .nav-container
-            {
-                text-align: center;
-                margin-top: 20px;
-            }
-        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <section class="nav-container">
-            <a href="index.html" class="nav-btn">На главную</a>
-            <a href="about.html" class="nav-btn">Обо мне</a>
-            <a href="gallery.html" class="nav-btn">Галерея</a>
-            <a href="funtime.html" class="nav-btn">Сюрпиз</a>
-        </section>
+        <nav>
+            <ul class="nav_ul">
+                <li class="nav_li"><a href="index.html" class="nav_li_a">Резюме</a></li>
+                <li class="nav_li"><a href="about.html" class="nav_li_a">Обо мне</a></li>
+                <li class="nav_li"><a href="gallery.html" class="nav_li_a">Галерея</a></li>                    
+                <li class="nav_li"><a href="funtime.html" class="nav_li_a_active">Обратная связь</a></li>
+            </ul>
+        </nav>
+
+        <h2 class="index_h">Обратная связь</h2>
+        
+        <p class="index_p">Несколько способов связаться со мной:</p>
+        <table class="table_c">
+            <tr>
+                <td><img src="cdimages/sc_vk.png"></td>
+                <td><a href="https://vk.com/alexus.lexus" class="index_p">vk.com/alexus.lexus</a></td>
+            </tr>
+            <tr>
+                <td><img src="cdimages/sc_github.png"></td>
+                <td><a href="https://github.com/AlexusLexus" class="index_p">AlexusLexus @ GitHub</a></td>
+            </tr>
+            <tr>
+                <td><img src="cdimages/sc_email.png"></td>
+                <td><a href="mailto:syrchin.alexey@icloud.com" class="index_p">syrchin.alexey@icloud.com</a></td>
+            </tr>
+        </table>
     </body>
 </html>
